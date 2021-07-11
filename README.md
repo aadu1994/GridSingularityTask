@@ -3,7 +3,7 @@
 These are the steps to run this automation. The terraform file created for this task is main.tf. It creates a new instance on AWS. It also creates a security group which includes
 opening of port 22 and port 80 over the internet for the new instance.
 
-1) Clone the git repository to you machine using " git clone https://github.com/aadu1994/GridSingularityTask"
+1) Clone the git repository to you machine using " git clone https://github.com/aadu1994/TerraformDeploymentAWS"
 2) You would need to install aws tools for this and need to run "aws configure" to enter your keys
 3) then you would run the command terraform init
 4) Then you will run the command 'terraform plan' to see what the out will be. Then run 'terraform apply'. Once this is completed it will give the output showing the public IP of the new VM
